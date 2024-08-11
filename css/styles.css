@@ -507,13 +507,22 @@ margin-bottom: 8px;
 }
 .footer-link-icon{
 
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-color:#4d5ae5;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.footer-p-two{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
 
 }
 .icon-list {
@@ -522,6 +531,12 @@ margin-bottom: 8px;
     display: flex;
     
   }
+
+  .li-footer-svg{
+    width: 40px;
+    height: 40px;
+  }
+
 .footer-list-svg{
     display: flex;
     Flex-direction: row;
@@ -548,8 +563,12 @@ margin-bottom: 8px;
 .div-footer-two{
     margin-left: 120px;
 }
+.div-footer-one{
+margin-right: 120px;
+}
 .div-footer{
     display: flex;
+    align-items: baseline;
 }
 .stud{
     color: #f4f4fd;
