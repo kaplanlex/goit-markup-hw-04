@@ -392,11 +392,7 @@ margin-right: 76px;
 
   }
   
-  .icon-list {
-    display: flex;
-    gap: 24px;
-    
-  }
+
   .team-link-icon {
     display: flex;
     justify-content: center;
@@ -509,6 +505,31 @@ margin-bottom: 8px;
     background-color: #2e2f42;
     padding: 100px 0;
 }
+.footer-link-icon{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon-list {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    
+  }
+.footer-list-svg{
+    display: flex;
+    Flex-direction: row;
+    gap: 16px;
+    
+}
+
+
 .logo-f{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -522,7 +543,15 @@ margin-bottom: 8px;
     display: inline-block;
     margin-bottom: 16px;
     
+
+}
+.div-footer-two{
+    margin-left: 120px;
+}
+.div-footer{
+    display: flex;
 }
 .stud{
     color: #f4f4fd;
+
 }
