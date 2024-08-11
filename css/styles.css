@@ -322,7 +322,6 @@ margin-right: 76px;
 
 .adv-div{
    
-    margin-bottom: 8px;
     padding: 32px 0 ;
 }
 .team-list{
@@ -382,7 +381,7 @@ margin-right: 76px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .p-portf{
-    position: absolute;
+    
     top: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -390,8 +389,7 @@ margin-right: 76px;
     color:#f4f4fd;
     padding: 40px 32px;
     
-    height: 100%;
-    width: 100%;
+    
 
   }
   
@@ -462,8 +460,7 @@ margin-bottom: 8px;
     
 }
 .portfolio-item:hover{
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover .p-port{
@@ -560,9 +557,7 @@ margin-bottom: 8px;
     
 
 }
-.div-footer-two{
-    margin-left: 120px;
-}
+
 .div-footer-one{
 margin-right: 120px;
 }
